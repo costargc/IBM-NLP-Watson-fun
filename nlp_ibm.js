@@ -20,7 +20,7 @@ axios(
 ).then(function (response) {
     results = response.data.results
     console.log(response.data.results);
-    fs.writeFile("data.json", JSON.stringify(results), function (error) { if (error) { return console.log(error) } });
+    fs.writeFile("data.json", JSON.stringify(results), function (e) { if (e) return console.log(e) });
 
 }).catch(function (error) {
     console.log(error);
