@@ -1,0 +1,22 @@
+{
+  "name": "ibm-nlp-watson-fun",
+  "version": "1.0.0",
+  "description": "this is just an introduction about me and my experience but using IBM Watson to generate some data.",
+  "main": "nlp_ibm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costargc/IBM-NLP-Watson-fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costargc/IBM-NLP-Watson-fun/issues"
+  },
+  "homepage": "https://github.com/costargc/IBM-NLP-Watson-fun#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
